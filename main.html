@@ -1,16 +1,51 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bootstrap Buttons</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container mt-3">
+        <h2>Bootstrap Buttons</h2>
+        
+        <!-- First row: Buttons 1-4 -->
+        <div class="row mb-3">
+            <div class="col-auto">
+                <button id="button-1" class="btn btn-primary">Button-1</button>
+            </div>
+            <div class="col-auto">
+                <button id="button-2" class="btn btn-outline-secondary">Button-2</button>
+            </div>
+            <div class="col-auto">
+                <button id="button-3" class="btn btn-success btn-lg">Button-3</button>
+            </div>
+            <div class="col-auto">
+                <button id="button-4" class="btn btn-danger btn-sm">Button-4</button>
+            </div>
+        </div>
 
+        <!-- Second row: Button-5 -->
+        <div class="row mb-3">
+            <div class="col-12">
+                <button id="button-5" class="btn btn-warning btn-lg w-100">Button-5</button>
+            </div>
+        </div>
+
+        <!-- Third row: Buttons 6-8 -->
+        <div class="row">
+            <div class="col-auto">
+                <button id="button-6" class="btn btn-info" disabled>Button-6</button>
+            </div>
+            <div class="col-auto">
+                <button id="button-7" class="btn btn-light">Button-7</button>
+            </div>
+            <div class="col-auto">
+                <button id="button-8" class="btn btn-link">Button-8</button>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
